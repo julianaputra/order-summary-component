@@ -19,34 +19,47 @@
 
 <body>
   <main class="main">
-    <div class="order-card">
-      <h4 class="order-card__title">
-        Order Summary
-      </h4>
-      <p class="order-card__desc">
-        You can now listen to millions of songs, audiobooks, and podcasts on any
-        device anywhere you like!
-      </p>
-      
-      <div class="order-card__plan">
-        Annual Plan
-        $59.99/year
-  
-        Change
+    <div class="container">
+      <div class="order-card">
+        <img class="order-card__image" src="assets/img/illustration-hero.svg" alt="Image of Annual Plan">
+        <div class="order-card__body">
+          <h4 class="order-card__title">
+            Order Summary
+          </h4>
+          <p class="order-card__desc">
+            You can now listen to millions of songs, audiobooks, and podcasts on any
+            device anywhere you like!
+          </p>
+
+          <div class="order-card__plan">
+            <img class="order-card__plan-icon" src="assets/img/icon-music.svg" alt="">
+            <div>
+              <p class="order-card__plan-title">
+                Annual Plan
+              </p>
+              <p class="order-card__plan-price">
+                $59.99/year
+              </p>
+            </div>
+            <a class="order-card__plan-button" href="#">Change</a>
+          </div>
+
+          <button class="button button--primary">
+            Proceed to Payment
+          </button>
+          <button class="button">
+            Cancel Order
+          </button>
+        </div>
       </div>
-  
-      <button>
-        Proceed to Payment
-      </button>
-      <button>
-        Cancel Order
-      </button>
-    </div>
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Juliana Putra</a>.
     </div>
   </main>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="https://github.com/julianaputra" target="_blank">Juliana Putra</a>.
+    </div>
+  </footer>
 </body>
 
 </html>
